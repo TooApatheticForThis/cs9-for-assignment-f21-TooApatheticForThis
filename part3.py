@@ -17,5 +17,10 @@ Enter the height: 3
 *******
 
 """
+Horiznum = int(input("enter a horizontal number: "))
+Vertnum = int(input("enter a vertical number: "))
 
-#write your code here 
+for i in range(Vertnum):
+  print('*' * Horiznum)
+
+

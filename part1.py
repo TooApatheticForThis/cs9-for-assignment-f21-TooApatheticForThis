@@ -1,3 +1,4 @@
+import math
 """
 ******
 PART 1
@@ -9,9 +10,6 @@ The program doesn't work quite right yet, though. Fix the program so that it run
 
 number = int(input("What factorial are you looking for? "))
 
-product = 0
-
-for i in range(number):
-  product = product * i
+product = math.factorial(number)
 
 print(product)
